@@ -35,8 +35,11 @@
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
+# Allows for friendly URLs i.e. site.com/page vs. site.com/page/index.html
+activate :directory_indexes
+
 # Reload the browser automatically whenever files change
-# activate :livereload
+activate :livereload
 
 # Methods defined in the helpers block are available in templates
 # helpers do
