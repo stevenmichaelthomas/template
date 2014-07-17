@@ -6,7 +6,7 @@ body {
 .logo {
   float: left;
   width: 150px;
-  margin-top: 10px;
+  margin: 20px 0 0 10px;
 }
 
 .nav {
@@ -16,8 +16,8 @@ body {
     display: inline-block;
     margin-top: 30px;
     text-decoration: none;
-    padding: 0 25px;
-    color: #fff;
+    padding: 0 50px;
+    color: white;
 
 
   }
@@ -25,19 +25,18 @@ body {
 
 .hero {
   background-color: white;
-  height: 500px;
+  height: 400px;
   clear: both;
-  padding-top: 50px;
+  padding-top: 80px;
+  margin-top: 70px;
 
   h1 {
     margin: 0;
     float: left;
     width: 60%;
     text-align: center;
-    line-height: 350px;
+    margin-top: 105px;
     font-size: 48px;
-
-
   }
 
 }
@@ -48,6 +47,65 @@ body {
 }
 
 .header {
-  background-color: grey;
-  height: 50px;
+  background-color: black;
+  height: 70px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+
 }
+
+.VP {
+  background-color: #E8E8E8;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 500px;
+  width: 1300px;
+
+
+}
+
+.intro-centre {
+  text-align: center;
+  font-size: 25px;
+  color: #303030;
+  margin-top: 0px;
+  padding-top: 40px;
+  margin-bottom: 50px;
+
+}
+
+.vp-icons {
+   
+
+}
+
+.vp-icon {
+  width: 33.333333%;
+  float: left;
+  text-align: center;
+  
+  p {
+    padding: 0 40px;
+  }
+}
+
+.blog-advert {
+  margin-bottom: 50px;
+
+
+
+
+}
+
+.blog-image {
+  float: left;
+  width: 50%;
+  text-align: center;
+
+  p{
+    padding:0 60px;
+  }
+}
+    
