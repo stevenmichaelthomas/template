@@ -1,5 +1,10 @@
+@import "compass";
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "sass";
+
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: $primary-font;
   margin: 0;
 }
 
@@ -18,8 +23,6 @@ body {
     text-decoration: none;
     padding: 0 50px;
     color: white;
-
-
   }
 }
 
@@ -28,7 +31,8 @@ body {
   height: 400px;
   clear: both;
   padding-top: 80px;
-  margin-top: 70px;
+  margin-top: $header-height;
+  margin-bottom: $header-height;
 
   h1 {
     margin: 0;
@@ -48,7 +52,7 @@ body {
 
 .header {
   background-color: black;
-  height: 70px;
+  height: $header-height;
   position: fixed;
   width: 100%;
   top: 0;
@@ -56,14 +60,12 @@ body {
 }
 
 .VP {
-  background-color: #E8E8E8;
+  background-color: $color-gray;
   margin-left: auto;
   margin-right: auto;
   display: block;
   height: 500px;
   width: 1300px;
-
-
 }
 
 .intro-centre {
@@ -76,36 +78,35 @@ body {
 
 }
 
-.vp-icons {
-   
-
-}
-
 .vp-icon {
-  width: 33.333333%;
-  float: left;
-  text-align: center;
+  @include grid-item(33.333333%);
   
   p {
+    font-family: $secondary-font;
     padding: 0 40px;
+  }
+  img {
+    max-width: 200px;
+
   }
 }
 
 .blog-advert {
   margin-bottom: 50px;
-
-
-
-
 }
 
 .blog-image {
-  float: left;
-  width: 50%;
   text-align: center;
 
-  p{
+  p {
     padding:0 60px;
   }
+}
+
+.button {
+  background-color: pink;
+  width: 200px;
+
+  @include border-radius(10px);
 }
     

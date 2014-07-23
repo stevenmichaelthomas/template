@@ -1,6 +1,13 @@
 ---
 title: Stefanie Gibson
 ---
+
+
+
+
+
+
+
 <div class='header'>
   <div class='logo'>
     <img src='http://placehold.it/200x30'>
@@ -14,9 +21,18 @@ title: Stefanie Gibson
 </div>
 
 <section class='hero'>
-  <h1>A fun Headline will go here to dee dee dee</h1>
+  <div class='container'>
+  <div class='row'>
+    <div class='col-md-9 col-xs-9'>
+  <h1>
+Hey, I’m Stef and I’m a Toronto-based <b>interaction designer</b>. </h1>
+</div>
+ <div class='container'>
+  <div class='row'>
+    <div class='col-md-3 col-xs-3'>
   <div class='hero-content'>
-    <img src='http://placehold.it/350x350'>
+  <%= image_tag('melinkedin.jpg') %>
+  </div>
   </div>
 </section>
 
@@ -25,7 +41,7 @@ title: Stefanie Gibson
     Here's a little intro to the kinds of work I do and believe in </p>
     <section class='vp-icons'>
       <div class="vp-icon">
-        <img src='http://placehold.it/200x200'>
+        <%= image_tag('cat.jpg') %>
         <p> Lorem ipsum dolor sit amet, nullam corpora repudiare eum ut. Ex tempor contentiones vim, pro prompta apeirian incorrupte id.</p>
       </div>
       <div class="vp-icon">
@@ -45,15 +61,20 @@ title: Stefanie Gibson
   </p> 
 </div>
 
-<div class='blog-images'>
-  <div class='blog-image'>
-    <img src='http://placehold.it/250x250'>
-    <h3>Blog Title Here </h3>
-    <p>Lorem ipsum dolor sit amet, nullam corpora repudiare eum ut. Ex tempor contentiones vim, pro prompta apeirian incorrupte id.</p>
   </div>
-  <div class='blog-image'>
-    <img src='http://placehold.it/250x250'>
-    <h3>Blog Title Here </h3>
-    <p>Lorem ipsum dolor sit amet, nullam corpora repudiare eum ut. Ex tempor contentiones vim, pro prompta apeirian incorrupte id.</p>
+</div> 
+
+<div class='blog-images container'>
+  <div class='row'>
+    <div class='blog-image col-md-6'>
+      <img src='http://placehold.it/250x250'>
+      <h3>Blog Title Here </h3>
+      <p>Lorem ipsum dolor sit amet, nullam corpora repudiare eum ut. Ex tempor contentiones vim, pro prompta apeirian incorrupte id.</p>
+    </div>
+    <div class='blog-image col-md-6'>
+      <img src='http://placehold.it/250x250'>
+      <h3>Blog Title Here </h3>
+      <p>Lorem ipsum dolor sit amet, nullam corpora repudiare eum ut. Ex tempor contentiones vim, pro prompta apeirian incorrupte id.</p>
+    </div>
   </div>
 </div>
