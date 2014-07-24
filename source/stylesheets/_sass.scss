@@ -5,6 +5,10 @@ $secondary-font: serif;
 
 $color-gray: #E8E8E8;
 
+$h2-font-size: 20px;
+
+
+
 @mixin grid-item($width) {
   float: left;
   text-align: center;
